@@ -39,6 +39,7 @@ void load_curtanaglobal() {
     property_override("ro.product.product.model", "Note 9S");
     property_override("ro.product.system.model", "Note 9S");
     property_override("ro.build.description", "curtana_global-user 10 QKQ1.191215.002 V11.0.7.0.QJWMIXM release-keys");
+<<<<<<< HEAD
     property_override("ro.build.fingerprint", "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys");
     property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys");
     property_override("ro.product.mod_device", "curtana_global");
@@ -47,6 +48,9 @@ void load_curtanaglobal() {
     property_override("org.evolution.build_donate_url", "https://paypal.me/darvycana");
     property_override("org.evolution.build_maintainer", "Lewis Shqipe");
     property_override("org.evolution.build_support_url", "https://t.me/EvolutionXCortana");
+=======
+    property_override("ro.build.fingerprint", "Redmi/curtana_global/curtana:10/QKQ1.191215.002/V11.0.7.0.QJWMIXM:user/release-keys");
+>>>>>>> parent of 99f287b... curtana: init: Configure maintainer props
 }
 
 void load_curtana() {
@@ -54,6 +58,7 @@ void load_curtana() {
     property_override("ro.product.product.model", "Note 9 Pro");
     property_override("ro.product.system.model", "Note 9 Pro");
     property_override("ro.build.description", "curtana-user 10 QKQ1.191215.002 V11.0.6.0.QJWINXM release-keys");
+<<<<<<< HEAD
     property_override("ro.build.fingerprint", "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys");
     property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys");
     property_override("ro.product.mod_device", "curtana_in_global");
@@ -62,6 +67,9 @@ void load_curtana() {
     property_override("org.evolution.build_donate_url", "https://paypal.me/darvycana");
     property_override("org.evolution.build_maintainer", "Lewis Shqipe");
     property_override("org.evolution.build_support_url", "https://t.me/EvolutionXCortana");
+=======
+    property_override("ro.build.fingerprint", "Redmi/curtana/curtana:10/QKQ1.191215.002/V11.0.6.0.QJWINXM:user/release-keys");
+>>>>>>> parent of 99f287b... curtana: init: Configure maintainer props
 }
 
 void vendor_load_properties() {
@@ -73,4 +81,3 @@ void vendor_load_properties() {
         load_curtana();
     }
 }
-
