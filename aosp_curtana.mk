@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from curtana device
 $(call inherit-product, device/redmi/curtana/device.mk)
 
-# Inherit some common LineageOS stuff.
-CUSTOM_BUILD_TYPE := OFFICIAL
+# Inherit some common PixelExperience stuff.
+CUSTOM_BUILD_TYPE := HelloWorld
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
