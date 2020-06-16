@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_curtana.mk
+    $(LOCAL_DIR)/havoc_curtana.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_curtana-user \
-    aosp_curtana-userdebug \
-    aosp_curtana-eng
+    havoc_curtana-user \
+    havoc_curtana-userdebug \
+    havoc_curtana-eng
