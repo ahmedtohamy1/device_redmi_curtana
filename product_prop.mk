@@ -127,3 +127,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
 
+#lmkd
+ro.lmk.use_psi=true
+ro.lmk.low_ram=false
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=100
+ro.lmk.use_minfree_levels=true
