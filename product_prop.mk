@@ -14,7 +14,7 @@ endif
 
 # Bluetooth
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.bluetooth.library_name=libbluetooth.so
+    ro.bluetooth.library_name=libbluetooth.so  \
     persist.bluetooth.bqr.event_mask=14  \
     persist.bluetooth.bqr.min_interval_ms=500  \
     vendor.bluetooth.soc=cherokee  \
@@ -114,7 +114,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.qti.sys.fw.bservice_enable=true
     
 # Netflix
-ro.netflix.bsp_rev=Q6250-19132-1
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.netflix.bsp_rev=Q6250-19132-1
 
 # Telephony
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -129,8 +130,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
 
 #lmkd
-ro.lmk.use_psi=true
-ro.lmk.low_ram=false
-ro.lmk.kill_heaviest_task=true
-ro.lmk.kill_timeout_ms=100
-ro.lmk.use_minfree_levels=true
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lmk.use_psi=true  \
+    ro.lmk.low_ram=false  \
+    ro.lmk.kill_heaviest_task=true  \
+    ro.lmk.kill_timeout_ms=100  \
+    ro.lmk.use_minfree_levels=true
